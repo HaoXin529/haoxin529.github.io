@@ -1,7 +1,7 @@
 ---
 title: "The Association between Mindfulness, Psychological Flexibility, and Rumination in Predicting Mental Health and Well-Being among University Students Using Machine Learning and Structural Equation Modeling"
 collection: publications
-category: manuscripts
+category: published
 permalink: /publication/2025-mindfulness-flexibility
 excerpt: "Integrated machine learning and structural equation modeling (SEM) to explore how mindfulness, psychological flexibility, and rumination jointly predict mental health and well-being in university students."
 date: 2025-01-15
