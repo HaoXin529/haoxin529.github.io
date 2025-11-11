@@ -87,12 +87,18 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
+  #books:
+   # title: 'Books'
+  #manuscripts:
+    #title: 'Journal Articles'    
+  #conferences:
+   # title: 'Conference Papers'
+  published:
+    title: "Peer-reviewed Publications"
+  under-review:
+    title: "Manuscripts Under Review"
+  in-prep:
+    title: "Manuscripts In Preparation"
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
