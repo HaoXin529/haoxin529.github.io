@@ -5,6 +5,6 @@ category: under-review
 permalink: /publication/number-dev-longitudinal
 excerpt: "Longitudinal task-fMRI across K–2 examining dorsal/ventral trajectories for magnitude vs. symbol recognition."
 date: 2025-10-01
-venue: "Under review"
+venue: ""
 citation: "Hao, X., Vinci-Booher, S., & Price, G. R. (under review). Symbolic and non-symbolic number processing in ventral and dorsal cortices: A longitudinal study from kindergarten to second grade."
 ---
