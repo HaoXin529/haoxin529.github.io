@@ -1,8 +1,10 @@
 ---
-layout: archive
-title: "Conferences"
+layout: single
+title: "Talks & Presentations"
 permalink: /conferences/
 author_profile: true
+toc: false
+
 ---
 
 ## 🧠 Poster Presentations
