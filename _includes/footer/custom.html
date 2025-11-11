@@ -28,16 +28,6 @@
       src="https://mapmyvisitors.com/globe.js?d=u8Sh_8BD531yh-sZmNUApyhZmwYi-zmpXyRjrVnWy5o&v={{ site.time | date: '%s' }}">
     </script>
   </div>
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      const globe = document.getElementById("mmvst_globe");
-      if (globe && globe.parentElement) {
-        globe.parentElement.addEventListener("click", function(e) {
-          e.preventDefault();
-          window.open("https://mapmyvisitors.com/web/1c0l9", "_blank");
-        });
-      }
-    });
-  </script>
+<script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=u8Sh_8BD531yh-sZmNUApyhZmwYi-zmpXyRjrVnWy5o"></script>
   {% endraw %}
 {% endif %}
