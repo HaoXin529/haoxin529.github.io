@@ -13,11 +13,9 @@ Hi there! Thanks for visiting! I'm Ashley Hao, and this site shares my work on l
 
 # 🎓 Education & Training
 
-I am currently pursuing my M.S. in **Cognitive Psychology** at **Vanderbilt University 🐿️ Peabody College**, working under the supervision of **Dr. Sophia Vinci-Booher** and **Dr. Gavin Price**. My master’s thesis examines number processing in ventral and dorsal cortices across early childhood using longitudinal fMRI data.  
+I am currently pursuing my M.S. in **Cognitive Psychology** at **Vanderbilt University 🐿️ Peabody College**, working under the supervision of **Dr. Sophia Vinci-Booher** and **Dr. Gavin Price**. My master’s project examines number processing in ventral and dorsal cortices across early childhood using longitudinal fMRI data.  
 
-Through this work, I aim to understand how **learning-driven neuroplasticity** and **attentional development** shape the functional architecture of the brain.
-
-Before Vanderbilt, I received dual Bachelor’s degrees in **Neuroscience** and **Psychology** from **Syracuse University 🍊**. During my undergraduate years, I worked on projects involving **mindfulness-based interventions**, **EEG studies of attention**, and **stress-related psychophysiology**. This period fostered my early interest in how attention and learning emerge through experience and brain plasticity.
+Before Vanderbilt, I received dual Bachelor’s degrees in **Neuroscience** and **Psychology** from **Syracuse University 🍊**. During my undergraduate years, I worked on projects involving **mindfulness-based interventions**, **EEG studies of attention**, and **stress-related psychophysiology** in adolescents. This period fostered my early interest in how attention and learning emerge through experience and brain plasticity.
 
 ---
 
