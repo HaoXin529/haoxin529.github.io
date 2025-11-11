@@ -1,7 +1,7 @@
 ---
 title: "Adaptation and Validation of the Mindful Student Questionnaire in Chinese"
 collection: publications
-category: manuscripts
+category: published
 permalink: /publication/2024-02-06-msq-chinese
 excerpt: "Validated a 15-item, three-factor Mindful Student Questionnaire (MSQ) among 2,910 Chinese adolescents, showing strong reliability and convergent/predictive validity."
 date: 2024-02-06
