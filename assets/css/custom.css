@@ -1,14 +1,8 @@
-#animated-bg {
+#neuron-bg {
   position: fixed;
   inset: 0;
-  z-index: -1;
+  z-index: -10;
   pointer-events: none;
+  display: block;
 }
-#animated-bg { background: red !important; }
 
-/* visitor globe */
-.visitor-globe-wrap {
-  width: 120px;
-  margin: 12px auto;
-  line-height: 0;
-}
