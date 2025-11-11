@@ -2,14 +2,14 @@
 
 <a href="{{ '/sitemap/' | relative_url }}">Sitemap</a>
 
-<!-- Support for MathJax -->
-<script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" id="MathJax-script"></script>
+<!-- MathJax -->
+<script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6&v={{ site.time | date: '%s' }}"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?v={{ site.time | date: '%s' }}" id="MathJax-script"></script>
 
-<!-- Support for Plotly -->
-<script defer src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/3.0.1/plotly.min.js"></script>
+<!-- Plotly -->
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/3.0.1/plotly.min.js?v={{ site.time | date: '%s' }}"></script>
 
-<!-- Support for Mermaid -->
+<!-- Mermaid -->
 <script type="module">
   (async () => {
     const mermaid = (await import('https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs')).default;
@@ -18,22 +18,20 @@
   })();
 </script>
 
-{% if page.url == '/' %}
+{% if page.url == '/' or page.url == '/index.html' or page.permalink == '/' or page.url == site.baseurl or page.url == site.baseurl | append: '/' %}
   {% raw %}
   <!-- MapMyVisitors globe -->
   <div class="visitor-globe-wrap">
     <script
       type="text/javascript"
       id="mmvst_globe"
-      src="//mapmyvisitors.com/globe.js?d=u8Sh_8BD531yh-sZmNUApyhZmwYi-zmpXyRjrVnWy5o">
+      src="https://mapmyvisitors.com/globe.js?d=u8Sh_8BD531yh-sZmNUApyhZmwYi-zmpXyRjrVnWy5o&v={{ site.time | date: '%s' }}">
     </script>
   </div>
   <script>
-    
     document.addEventListener("DOMContentLoaded", function() {
       const globe = document.getElementById("mmvst_globe");
-      if (globe) {
-    
+      if (globe && globe.parentElement) {
         globe.parentElement.addEventListener("click", function(e) {
           e.preventDefault();
           window.open("https://mapmyvisitors.com/web/1c0l9", "_blank");
