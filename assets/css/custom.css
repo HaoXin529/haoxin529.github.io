@@ -1,8 +1,4 @@
-/* 1) 把背景色放到 html，而不是 body */
-html { background: var(--global-bg-color); }
-body { background: transparent; }
 
-/* 2) 让画布在内容下、但在背景之上 */
 #neuron-bg {
   position: fixed;
   inset: 0;
