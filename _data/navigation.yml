@@ -20,15 +20,14 @@ main:
   - title: "Teaching"
     url: /teaching1/    
 
-
   #- title: "Portfolio"
    # url: /portfolio/
         
  # - title: "Blog Posts"
  #   url: /year-archive/
-    
+
   - title: "CV"
-    url: "https://drive.google.com/file/d/14YI6ecszh_vcSoF-LAdskrMjP7QMMx3k/view?usp=sharing"
+    url: "files/xahao_cv.pdf"
     external: true
 
     
