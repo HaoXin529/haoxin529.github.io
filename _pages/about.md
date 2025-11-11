@@ -45,8 +45,7 @@ By bridging brain and behavior, my long-term goal is to inform developmental cog
 ---
 
 
-You can learn more about my current projects and publications in this website, or get in touch at  
-📧 **xin.hao@vanderbilt.edu**
+You can learn more about my current projects and publications in this website, or get in touch at  📧 **xin.hao@vanderbilt.edu**
 
 
 
