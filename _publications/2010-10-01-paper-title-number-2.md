@@ -1,7 +1,7 @@
 ---
 title: "Cultivating Adolescents’ Self-Compassion Through Mindfulness: The Role of Self-Regulation at Both the Individual- and Classroom-Level"
 collection: publications
-category: manuscripts
+category: published
 permalink: /publication/2025-self-compassion-mindfulness
 excerpt: "A multilevel analysis of 2,121 high-school students revealed that mindfulness-based programs promote self-compassion, with stronger effects in classrooms showing lower baseline self-regulation."
 date: 2025-04-23
