@@ -12,9 +12,21 @@ layout: compress
   </head>
 
   <body>
-
     {% include browser-upgrade.html %}
     {% include masthead.html %}
+
+    {%- assign use_bg = false -%}
+    {%- if page.animated_bg == false -%}
+      {%- assign use_bg = false -%}
+    {%- elsif page.animated_bg -%}
+      {%- assign use_bg = true -%}
+    {%- elsif site.animated_bg -%}
+      {%- assign use_bg = true -%}
+    {%- endif -%}
+
+    {% if use_bg %}
+      <div id="animated-bg"></div>
+    {% endif %}
 
     {{ content }}
 
@@ -27,5 +39,46 @@ layout: compress
 
     {% include scripts.html %}
 
+    {% if use_bg %}
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+      <script>
+        (function () {
+          let vanta;
+
+          function initVanta(){
+            const el = document.querySelector("#animated-bg");
+            if (!el) return;
+            if (vanta) { try { vanta.destroy(); } catch(e){} }
+
+            vanta = VANTA.NET({
+              el: el,
+              // seed: 42, // 如需固定外观可解注
+              mouseControls: true,
+              touchControls: true,
+              gyroControls: false,
+              minHeight: 200.00,
+              minWidth: 200.00,
+              color: 0xcccccc,
+              backgroundColor: 0xffffff,
+              points: 9.0,
+              maxDistance: 18.0,
+              spacing: 16.0
+            });
+          }
+
+          if (document.readyState !== "loading") initVanta();
+          else document.addEventListener("DOMContentLoaded", initVanta);
+
+          // 若主题启用 Turbolinks/PJAX，页面切换后重建
+          document.addEventListener("turbolinks:load", initVanta);
+
+          // 离开前清理（可选）
+          window.addEventListener("beforeunload", function(){
+            if (vanta) { try { vanta.destroy(); } catch(e){} }
+          });
+        })();
+      </script>
+    {% endif %}
   </body>
 </html>
