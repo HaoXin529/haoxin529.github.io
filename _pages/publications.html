@@ -11,26 +11,37 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
+<!-- Group by year; if categories are defined, group by category THEN year -->
 {% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
+  {% for category in site.publication_category %}
+    {% assign cat_key = category[0] %}
+    {% assign cat_meta = category[1] %}
+
+    {% assign cat_posts = site.publications | where: "category", cat_key %}
+    {% if cat_posts and cat_posts != empty %}
+      <h2>{{ cat_meta.title }}</h2><hr />
+
+      {% assign grouped = cat_posts
+          | group_by_exp: "p", "p.date | date: '%Y'"
+          | sort: "name" | reverse %}
+
+      {% for year in grouped %}
+        <h3 style="margin-top:1.25rem">{{ year.name }}</h3>
+        {% for post in year.items %}
+          {% include archive-single.html %}
+        {% endfor %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+{% else %}
+  {% assign grouped = site.publications
+      | group_by_exp: "p", "p.date | date: '%Y'"
+      | sort: "name" | reverse %}
+
+  {% for year in grouped %}
+    <h2>{{ year.name }}</h2>
+    {% for post in year.items %}
       {% include archive-single.html %}
     {% endfor %}
   {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
 {% endif %}
-
-
-
