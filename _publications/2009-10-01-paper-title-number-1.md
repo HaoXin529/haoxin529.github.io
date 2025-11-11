@@ -1,14 +1,13 @@
 ---
-title: "Paper Title Number 1"
+title: "Adaptation and Validation of the Mindful Student Questionnaire in Chinese"
 collection: publications
 category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: /publication/2024-02-06-msq-chinese
+excerpt: "Validated a 15-item, three-factor Mindful Student Questionnaire (MSQ) among 2,910 Chinese adolescents, showing strong reliability and convergent/predictive validity."
+date: 2024-02-06
+venue: "Mindfulness"
+slidesurl: ""
+paperurl: "/files/paper1.pdf"
+bibtexurl: ""
+citation: "Wang, Q., Wu, Y., Feng, R., <b>Hao, X.</b>, Felver, J.C., Zhang, Y., & Razza, R. (2024). Adaptation and Validation of the Mindful Student Questionnaire in Chinese. <i>Mindfulness</i>, 15, 359–371. https://doi.org/10.1007/s12671-023-02299-x"
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
