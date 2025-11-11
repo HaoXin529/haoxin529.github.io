@@ -14,8 +14,8 @@ main:
   - title: "Talks & presentations"
     url: /conferences/    
   
-  - title: "Projects"
-    url: /projects/
+  #- title: "Projects"
+   # url: /projects/
     
   - title: "Teaching"
     url: /teaching1/    
