@@ -10,10 +10,3 @@ body { background: transparent; }
   pointer-events: none;
   display: block;
 }
-
-/* 3) 确保主要内容在画布之上 */
-.masthead, main, .page, .page__content, .page__footer, .site {
-  position: relative;
-  z-index: 1;
-  background: transparent; /* 防止有大块白底把画布盖住 */
-}
