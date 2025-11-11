@@ -4,3 +4,10 @@
   z-index: -1;
   pointer-events: none;
 }
+
+/* visitor globe */
+.visitor-globe-wrap {
+  width: 120px;
+  margin: 12px auto;
+  line-height: 0;
+}
