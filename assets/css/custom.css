@@ -4,6 +4,7 @@
   z-index: -1;
   pointer-events: none;
 }
+#animated-bg { background: red !important; }
 
 /* visitor globe */
 .visitor-globe-wrap {
