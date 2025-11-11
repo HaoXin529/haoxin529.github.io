@@ -1,4 +1,4 @@
-为啥我的widge 不update了 <!-- start custom footer snippets -->
+<!-- start custom footer snippets -->
 
 <a href="{{ '/sitemap/' | relative_url }}">Sitemap</a>
 
@@ -10,36 +10,7 @@
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/3.0.1/plotly.min.js"></script>
 
 <!-- Support for Mermaid -->
-<script type="module">
-  (async () => {
-    const mermaid = (await import('https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs')).default;
-    mermaid.initialize({ startOnLoad: true, theme: 'default' });
-    try { await mermaid.run({ querySelector: 'code.language-mermaid' }); } catch (e) {}
-  })();
+<!-- MapMyVisitors globe -->
+<script type="text/javascript" id="mmvst_globe"
+  src="https://mapmyvisitors.com/globe.js?d=u8Sh_8BD531yh-sZmNUApyhZmwYi-zmpXyRjrVnWy5o">
 </script>
-
-{% if page.url == '/' %}
-  {% raw %}
-  <!-- MapMyVisitors globe -->
-  <div class="visitor-globe-wrap">
-    <script
-      type="text/javascript"
-      id="mmvst_globe"
-      src="//mapmyvisitors.com/globe.js?d=u8Sh_8BD531yh-sZmNUApyhZmwYi-zmpXyRjrVnWy5o">
-    </script>
-  </div>
-  <script>
-    
-    document.addEventListener("DOMContentLoaded", function() {
-      const globe = document.getElementById("mmvst_globe");
-      if (globe) {
-    
-        globe.parentElement.addEventListener("click", function(e) {
-          e.preventDefault();
-          window.open("https://mapmyvisitors.com/web/1c0l9", "_blank");
-        });
-      }
-    });
-  </script>
-  {% endraw %}
-{% endif %}
