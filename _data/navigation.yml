@@ -26,7 +26,9 @@ main:
  #   url: /year-archive/
     
   - title: "CV"
-    url: /cv/
+    url: "https://docs.google.com/document/d/1RRqxxhlTYTCo9QWhrOvOBONu23XHGhpl/view?usp=sharing"
+    external: true
+
     
   # - title: "CV"
   #   url: /cv-json/
