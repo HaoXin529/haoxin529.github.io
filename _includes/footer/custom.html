@@ -18,11 +18,16 @@
   })();
 </script>
 
-{% raw %}
-<!-- ClustrMaps widget -->
-
-<!-- MapMyVisitors widget -->
-<script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=GryYZZE0BlOJp8TQu5bEH-HYkTTbo3_AZNdtS28oAbs"></script>
-{% endraw %}
-
-<!-- end custom footer snippets -->
+{% raw %}{% endraw %}
+{% if page.url == '/' %}
+  {% raw %}
+  <!-- MapMyVisitors globe -->
+  <div class="visitor-globe-wrap">
+    <script
+      type="text/javascript"
+      id="mmvst_globe"
+      src="//mapmyvisitors.com/globe.js?d=GryYZZE0BlOJp8TQu5bEH-HYkTTbo3_AZNdtS28oAbs">
+    </script>
+  </div>
+  {% endraw %}
+{% endif %}
