@@ -2,6 +2,7 @@
 title: "Mind–Body Interventions Induce Brain Changes in Aging: A Systematic Review of Structural and Functional Neuroimaging Findings"
 collection: publications
 category: under-review
+venue: ""
 permalink: /publication/mbi-aging-neuroimaging-review
 excerpt: "Systematic review of neuroimaging evidence (fMRI/sMRI/EEG/PET) on mind–body interventions in healthy older adults and MCI."
 date: 2025-09-01
