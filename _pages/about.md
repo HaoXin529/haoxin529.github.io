@@ -22,18 +22,18 @@ Before Vanderbilt, I earned dual B.S. degrees in **Neuroscience** and **Psycholo
 ## 🧠 Research Interests
 
 ### (1) Developmental trajectories of neuroplasticity
-- Age-related changes in functional lateralization, selectivity and white matter organization that support symbolic learning (letters, numbers) and higher-order academic skills (reading, mathematics).
-- Longitudinal mapping of individual variability in learning-related cortical reorganization  
+- Age-related changes in functional lateralization, selectivity and white matter supporting learning (letters, numbers) and academic skills (reading, mathematics).
+- Longitudinal individual variability in learning-related cortical reorganization  
 - Linking neural efficiency and flexibility to cognitive growth and academic outcomes  
 
 ### (2) Learning and attention development
-- Neural and behavioral mechanisms underlying the emergence and development of attentional control in childhood  
-- Plasticity of attention networks and how experience shapes functional connectivity between frontal and parietal regions
-- How attentional states (e.g., sustained attention, mind-wandering) modulate learning efficiency during skill acquisition.
+- Neural mechanisms of emergence and development of attentional control
+- Experience-driven plasticity of frontal-parietal attention networks
+- How attentional states modulate learning efficiency during skill acquisition
 
 ### (3) Integrating developmental computational and neuroimaging approaches
-- Using model-based fMRI and multivariate pattern analysis (MVPA) to reveal representational changes during learning  
-- Leveraging developmentally informed machine learning to predict trajectories of learning and cognitive control  
+- Model-based fMRI and MVPA to reveal representational changes during learning
+- Developmentally informed machine learning to predict trajectories of learning and attention
 
 ---
 
