@@ -1,8 +1,19 @@
+/* 1) 把背景色放到 html，而不是 body */
+html { background: var(--global-bg-color); }
+body { background: transparent; }
+
+/* 2) 让画布在内容下、但在背景之上 */
 #neuron-bg {
   position: fixed;
   inset: 0;
-  z-index: -10;
+  z-index: 0;            /* 改成 0（不要负数） */
   pointer-events: none;
   display: block;
 }
 
+/* 3) 确保主要内容在画布之上 */
+.masthead, main, .page, .page__content, .page__footer, .site {
+  position: relative;
+  z-index: 1;
+  background: transparent; /* 防止有大块白底把画布盖住 */
+}
