@@ -2,6 +2,7 @@
 title: "When Control Slips Away: Temporal Dynamics of Learned Helplessness and Cognitive Flexibility under Reward Uncertainty"
 collection: publications
 category: under-review
+venue: ""
 permalink: /publication/learned-helplessness-flexibility
 excerpt: "Behavioral paradigm probing how reward uncertainty drives helplessness and alters task-switching flexibility over time."
 date: 2025-08-15
